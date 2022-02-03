@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="style.css">
+        <title>
+            {% block title %}{% endblock %}
+        </title>
+
+    </head>
+    <body>
+        <div id="upper-body">
+            <div id="top-base">
+                <header>Post App</header>
+            </div>
+           {% block content %}
+
+           {% endblock %}
+        </div>
+       
+    </body>
+</html>
