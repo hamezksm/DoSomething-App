@@ -42,6 +42,7 @@ INSTALLED_APPS = [
     'crispy_forms',
     'app.apps.AppConfig',
     'register.apps.RegisterConfig',
+    'feed.apps.FeedConfig',
 ]
 
 MIDDLEWARE = [
@@ -133,6 +134,6 @@ DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 
 CRISPY_TEMPLATE_PACK="bootstrap4"
 
-LOGIN_REDIRECT_URL='/'
+LOGIN_REDIRECT_URL='/profile'
 
 LOGOUT_REDIRECT_URL='/'
